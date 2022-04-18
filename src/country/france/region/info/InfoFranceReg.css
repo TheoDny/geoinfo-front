@@ -1,0 +1,10 @@
+#info-france-region {
+	border: solid;
+	display: flex; /* contexte sur le parent */
+	flex-direction: column; /* direction d'affichage verticale */
+	justify-content: center; /* alignement vertical */
+}
+#info-france-region .img {
+	display: flex;
+	flex-direction: row;
+}

@@ -1,0 +1,21 @@
+svg {
+	--focus-color: coral;
+}
+
+.land {
+	fill: lightblue;
+	fill-opacity: 1;
+	stroke: white;
+	stroke-opacity: 1;
+	stroke-width: 0.5;
+	transition: fill 0.2s ease;
+	z-index: 0;
+}
+
+.land:hover {
+	fill: var(--focus-color);
+}
+
+path.focus {
+	fill: var(--focus-color);
+}
