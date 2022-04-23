@@ -1,0 +1,65 @@
+.FormModifSpot {
+	width: 90%;
+	max-width: 990px;
+	min-width: 300px;
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (max-width: 500px) {
+	.FormModifSpot {
+		margin: 5px;
+	}
+}
+
+#spot-selectors {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+div.MuiFormControl-root {
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin: 10px;
+}
+
+#simpleTextFeild {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+div.MuiFormGroup-root {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	align-items: center;
+}
+
+form > div.MuiFormControl-root > div:nth-child(n + 3)::before {
+	content: "";
+	position: relative;
+	left: 5%;
+	height: 10px;
+	width: 90%;
+	border-top: 1px solid dimgrey;
+}
+
+div.form-image {
+	align-items: center;
+	display: flex;
+	margin: 10px;
+}
+#button-submit {
+	width: fit-content;
+	align-self: flex-end;
+}
+
+label[id^="add-photo-label"] {
+	background-size: 100% 100%;
+}
